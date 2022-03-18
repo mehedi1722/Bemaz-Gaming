@@ -1,0 +1,161 @@
+@media screen and (max-width: 992px){
+    .container{
+        width: 85%;
+    }
+
+    .Nav_content .Menu ul li a{
+        padding: 10px 15px;
+    }
+
+    // Banner-section 
+    #Banner {
+        padding: 100px 0;
+
+        .Banner_img img{
+            width: 80%;
+        }
+
+        .Banner_text{
+            h1 {
+                font-size: 40px;
+            }
+    
+            h2 {
+                font-size: 50px;
+                padding-bottom: 0;
+            }
+
+            p {
+                padding: 5px 0 15px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 85%;
+    }
+
+    .w-50{
+        width: 100%;
+    }
+
+    // ---- Navbar responsive ---
+    nav#Navbar .Nav_content {
+        flex-wrap: wrap;
+
+        .Menu {
+            width: 100%;
+            text-align: center;
+            order: 3;
+            display: none;
+
+            ul{
+                width: 40%;
+                margin: 0 auto;
+
+                li {
+                    display: block;
+                }
+            }
+        }
+
+        .profile-icon a {
+            display: none;
+        }
+
+        .profile-icon #Menu_Bar {
+            display: block;
+            color: #040c0e;
+            border-radius: 0;
+        }
+
+    }
+
+    // Banner section  
+    section#Banner {
+        background: #f3ca20;
+
+        .Banner_section{
+            text-align: center;
+
+            .left {
+                width: 100%;
+                .Banner_img img{
+                    width: 80%;
+                }
+            }
+
+            .right {
+                width: 100%;
+
+                .Banner_text{
+                    h1{
+                        letter-spacing: 20px;
+                    }
+                    h2,p{
+                        text-align: center;
+                    }
+                } 
+            }
+        } 
+    }
+
+    // About section 
+    
+
+    #About_section .About_content .About_image{
+        text-align: left !important;
+        padding-top: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 95%;
+    }
+
+    #Banner{
+        padding: 50px 0;
+
+        .Banner_text{
+            h2 {
+                font-size: 25px;
+                margin: 20px 0 0;
+            }
+            p {
+                font-size: 12px;
+                padding: 0 15px;
+            }
+
+            a.btn {
+                margin: 0 30px 0 0;
+            }
+        }
+    }
+
+    a.btn {
+        font-size: 12px;
+        margin: 10px auto !important;
+        display: block;
+        width: 50%;
+        padding: 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,35 @@
+#Banner {
+    background: url(../images/Banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 115px 0;
+
+    .Banner_text{
+        h2 {
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: 10px;
+            color: $Light-text;
+        }
+
+        h1 {
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: 65px;
+            color: $Secondary-color ;
+            padding: 10px 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 100;
+            color: $Light-text;
+            padding: 20px 0;
+            text-align: justify;
+            line-height: 26px;
+            letter-spacing: 2px;
+        }
+    }    
+    
+}
